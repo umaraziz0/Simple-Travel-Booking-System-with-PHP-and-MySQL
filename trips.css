@@ -1,0 +1,188 @@
+html, body{
+    overflow-x: hidden;
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+}
+
+.wrapper {
+    position: relative;
+    text-align: center;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    color: white;
+}
+
+.text2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    color: white;
+}
+
+.text3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    color: white;
+}
+
+p{
+    border-radius: 25px;
+    border: 2px solid;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+}
+
+h1 {
+    font-family: 'Bebas Neue Book';
+    color: white;
+    text-align: center;
+    font-size: 72px;
+}
+
+hr {
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr{
+    background-color: #333;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue Book';
+}
+
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url("fonts/BebasNeue Book.otf") format("opentype"),
+         url("fonts/bebasneue_book-webfont.woff2") format("woff2"),
+         url("fonts/bebasneue_book-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+#logo {
+    float: left;
+}
+
+#logo2{
+    width: 50%;
+    display: block;
+    position: absolute;
+    margin-top: -5%;
+    left: 30%;
+}
+
+#motto {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.loginregister {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    position: relative;
+    top: 30px;
+    right: 30px;
+}
+
+.topnav{
+    font-family: 'Bebas Neue Book';
+    font-weight: normal;
+    font-style: normal;
+    background-color: #333;
+    overflow: hidden;   
+}
+
+.topnav a {
+    float: left;
+    color:#f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover, .destinationsdrop:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active{
+    background-color: #4CAF50;
+    color:white;
+}
+
+.destinationsdrop{
+    float: left;
+    overflow: hidden;
+}
+
+.destinationsdrop .destinationsbutton{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.destinationsbutton.active{
+    background-color: #4CAF50;
+    color:white;
+}
+
+.destinationscontent{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.destinationscontent a{
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.destinationscontent a:hover{
+    background-color: #ddd;
+}
+
+.destinationsdrop:hover .destinationscontent{
+    display: block;
+}
