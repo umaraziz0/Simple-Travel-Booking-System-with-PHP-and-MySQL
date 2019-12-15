@@ -1,4 +1,5 @@
-#Simple Travel Booking System with MySQL and PHP
+# Simple Travel Booking System with MySQL and PHP
+
 Welcome to my first repository! I made this project for a Server Side Programming course in my third year of college. 
 This was before I started using Git and GitHub to keep track of my progress throughout the project so there wasn't any changelogs. 
 
